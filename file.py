@@ -16,3 +16,8 @@ for idx, symbol in enumerate(alpha_set):
 proc_names = []
 input_seqs = []
 target_seqs = []
+
+for i in range(1, 6):
+    proc_names.append(f"proc_{i}")
+    input_seqs.append(f"input_seq_{i}")
+    target_seqs.append(f"target_seq_{i}")
